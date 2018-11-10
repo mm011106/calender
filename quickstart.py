@@ -22,7 +22,7 @@ SCOPES = 'https://www.googleapis.com/auth/calendar.readonly'
 #認証のためのwebページ設定
 
 def main():
-# 認証処理
+# 認証処理  this process needs web browser. 
     """Shows basic usage of the Google Calendar API.
     Prints the start and name of the next 10 events on the user's calendar.
     """
@@ -46,9 +46,7 @@ def main():
       "timeMin": the_datetime.isoformat(),
       "timeMax": the_datetime2.isoformat(),
       "timeZone": 'Asia/Tokyo',
-      "items": [{"id": 'miyamoto.eagletech@gmail.com'}]
-#      "items": [{"id": 'egeq1npb38lps7vn8psmdesi2s@group.calendar.google.com'},
-#                {"id": 'miyamoto.eagletech@gmail.com'}]
+      "items": [{"id": 'INSERT ID OF THE CALENDER YOU INTERESTED'}]
     }
 
 #  the_datetimeからthe_datetime2までの間に予定がなければ busy:[null] のjsonがかえってくる
