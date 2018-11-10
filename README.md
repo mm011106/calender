@@ -26,7 +26,8 @@ Google Calender watch script
 
 ## 動作確認
 
-- 認証作業（webブラウザが必要）
+- 最初のスクリプト起動時に認証作業（webブラウザが必要）
+- token.json will be generated.
 - API経由でのやり取り
 
 ## 問題点：
